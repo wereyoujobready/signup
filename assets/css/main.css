@@ -3398,7 +3398,8 @@ input, select, textarea {
 			margin-top: -0.25rem;
 			text-align: center;
 			color: #000;
-			/*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+			/*background-color: #ffffff;*/
+			/*text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;*/
 		}
 
 		#intro + #header {
@@ -3531,7 +3532,8 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #000;
+			/*background-color: #ffffff;*/
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3652,7 +3654,7 @@ input, select, textarea {
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #9e9796;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3761,12 +3763,16 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
+		opacity: .9;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
+		/*#main a {
+			opacity: 1;
+		}*/
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
