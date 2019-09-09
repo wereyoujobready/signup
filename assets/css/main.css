@@ -3389,6 +3389,7 @@ input, select, textarea {
 			font-size: 5rem;
 			line-height: 1;
 			color: #000000;
+			mix-blend-mode: difference;
 			/* text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
 		}
 
@@ -3533,6 +3534,7 @@ input, select, textarea {
 
 		#header a {
 			color: #000;
+			/*mix-blend-mode: exclusion;*/
 			/*background-color: #ffffff;*/
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
