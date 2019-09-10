@@ -3355,8 +3355,8 @@ input, select, textarea {
 		#intro button,
 		#intro .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #000;
-			color: #000 !important;
+			box-shadow: inset 0 0 0 2px #fff;
+			color: #fff !important;
 		}
 
 			#intro input[type="submit"]:hover,
@@ -3389,8 +3389,9 @@ input, select, textarea {
 		#intro h1 {
 			font-size: 5rem;
 			line-height: 1;
-			color: #000000;
-			mix-blend-mode: difference;
+			color: #ffffff;
+			/*background-color: rgba(255, 255, 255, 0.7);*/
+			/*mix-blend-mode: difference;*/
 			/* text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
 		}
 
@@ -3534,7 +3535,7 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #000;
+			color: #ffffff;
 			/*mix-blend-mode: exclusion;*/
 			/*background-color: #ffffff;*/
 			border-bottom-color: rgba(255, 255, 255, 0.5);
